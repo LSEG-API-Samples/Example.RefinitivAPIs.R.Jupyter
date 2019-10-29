@@ -35,7 +35,7 @@ data_frame1 <- get_data(list("IBM", "GOOG.O", "MSFT.O"), list("TR.PriceClose", "
 data_frame1
 ```
 
-## 2. Use the **get_data** function to retrieve the historical data and plot OHLC chart
+## 2. Use the **get_data** function to retrieve the historical data and plot an OHLC chart
 
 The following code calls the **get_data** function to retrieve daily historical OPEN, HIGH, LOW, CLOSE fields from one year ago to the last trading day of IBM. 
 
