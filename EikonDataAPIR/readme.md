@@ -3,7 +3,7 @@
 
 This example demonstrates how to use [Eikon Data API](https://developers.refinitiv.com/eikon-apis/eikon-data-api) with R on Jupyter Notebook. It uses the [eikonapir](https://github.com/ahmedmohamedali/eikonapir) package to retrieve data from Eikon and uses [Plotly](https://plot.ly/r/getting-started/) package to draw charts. It also uses the [IRDisplay](https://www.rdocumentation.org/packages/IRdisplay) package to display news in HTML format.
 
-To setup Jupyter Notebook environment for R or install Eikon Data API for R, please refer to this article.
+To setup Jupyter Notebook environment for R or install Eikon Data API for R, please refer to this [article](https://developers.refinitiv.com/article/setup-jupyter-notebook-r).
 
 ### The first step is loading the **eikonapir**, **plotly**, and **IRDisplay** packages.
 
