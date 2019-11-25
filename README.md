@@ -164,6 +164,8 @@ The R examples for Jupyter are available in [GitHub](https://github.com/Refiniti
 
 2. [DataStream R Example](https://github.com/Refinitiv-API-Samples/Example.RefinitivAPIs.R.Jupyter/tree/master/DataStreamR): This example demonstrates how to use DataStream Web Service with R on Jupyter Notebook. It uses the [DatastreamDSWS2R](https://github.com/CharlesCara/DatastreamDSWS2R/tree/master/R) package to retrieve data from DataStream Web Service and uses [Plotly](https://plot.ly/r/getting-started/) package to draw charts.
 
+3. [Elektron Data Platform R Example](https://github.com/Refinitiv-API-Samples/Example.RefinitivAPIs.R.Jupyter/tree/master/ElektronDataPlatformAPIR): This example demonstrates how to retrieve historical data from the Elektron Data Platform with R on Jupyter Notebook. It uses the [httr](https://cran.r-project.org/web/packages/httr/vignettes/quickstart.html) package to send HTTP request messages and uses [Plotly](https://plot.ly/r/getting-started/) package to draw charts.
+
 ## Troubleshoot
 
 - Get "**please set environment variable 'TZ'**" error while installing Refinitiv's APIs from GitHub
