@@ -1,9 +1,9 @@
 
-# Elektron Data Platform Historical R Example
+# Refinitiv Data Platform Historical R Example
 
-Elektron Data Platform (EDP) is our cloud-enabled, open platform, that brings together content, analytics and proprietary, customer and third-party data distribution and management technology. It provides simple web-based API access to a broad range of content. 
+Refinitiv Data Platform (RDP) is our cloud-enabled, open platform, that brings together content, analytics and proprietary, customer and third-party data distribution and management technology. It provides simple web-based API access to a broad range of content. 
 
-This example demonstrates how to retrieve historical data from the Elektron Data Platform with R on Jupyter Notebook. It uses the [httr](https://cran.r-project.org/web/packages/httr/vignettes/quickstart.html) package to send HTTP request messages and uses [Plotly](https://plot.ly/r/getting-started/) package to draw charts.
+This example demonstrates how to retrieve historical data from the Refinitiv Data Platform with R on Jupyter Notebook. It uses the [httr](https://cran.r-project.org/web/packages/httr/vignettes/quickstart.html) package to send HTTP request messages and uses [Plotly](https://plot.ly/r/getting-started/) package to draw charts.
 
 ## The first step is loading the required libraries
 
@@ -18,9 +18,9 @@ library(plotly)
 library(zoo)  
 ```
 
-## Next, set URLs for the Elektron Data Platform services
+## Next, set URLs for the Refinitiv Data Platform services
 
-This example uses the following Elektron Data Platform services:
+This example uses the following Refinitiv Data Platform services:
 
 - **/auth/oauth2/v1/token**: This service allows clients to get a token for password grant
 - **/data/historical-pricing/v1**: This service is used to retrieve Intraday and Interday time-series historical pricing data
@@ -34,9 +34,9 @@ OAUTH2_TOKEN_URL <- paste(REFINITIV_API_URL, "auth/oauth2/v1/token", sep="")
 HISTORICAL_PRICING_URL <- paste(REFINITIV_API_URL, "data/historical-pricing/v1", sep="")
 ```
 
-## Then, set the Elektron Data Platform credential
+## Then, set the Refinitiv Data Platform credential
 
-The Elektron Data Platform credential include:
+The Refinitiv Data Platform credential include:
 
 - **USERNAME**: The resource owner username (typically email)
 - **PASSWORD**: The resource owner password
@@ -51,7 +51,7 @@ PASSWORD <- "<password>"
 CLIENTID <- "<client id>"
 ```
 
-Instead of setting the Elektron Data Platform credential in the code, you can set credential information in the **.Renviron** file. Then, use the **Sys.getenv** method to retrieve the credential information. 
+Instead of setting the Refinitiv Data Platform credential in the code, you can set credential information in the **.Renviron** file. Then, use the **Sys.getenv** method to retrieve the credential information. 
 
 For example, the **.Renviron** file contains the following environment variables:
 
