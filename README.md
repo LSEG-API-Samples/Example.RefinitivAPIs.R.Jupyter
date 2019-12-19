@@ -6,7 +6,7 @@ R is an interpreted programming language for statistical computing and graphics 
 
 R is available as Free Software under the terms of the Free Software Foundation’s GNU General Public License in source code form. It compiles and runs on a wide variety of UNIX platforms and similar systems (including FreeBSD and Linux), Windows and macOS.
 
-Refinitiv's APIs, such as [Eikon Data API](https://developers.refinitiv.com/eikon-apis/eikon-data-api), [Datastream Web Service](https://developers.refinitiv.com/eikon-apis/datastream-web-service), [DataScope Select](https://developers.refinitiv.com/datascope-select-dss), [TRTH](https://developers.refinitiv.com/thomson-reuters-tick-history-trth), and [Elektron Data Platform](https://developers.refinitiv.com/elektron-data-platform/apis-in-this-family) also support R. In this article, we will explain steps to:
+Refinitiv's APIs, such as [Eikon Data API](https://developers.refinitiv.com/eikon-apis/eikon-data-api), [Datastream Web Service](https://developers.refinitiv.com/eikon-apis/datastream-web-service), [DataScope Select](https://developers.refinitiv.com/datascope-select-dss), [TRTH](https://developers.refinitiv.com/thomson-reuters-tick-history-trth), and [Refinitiv Data Platform](https://developers.refinitiv.com/refinitiv-data-platform/apis-in-this-family) also support R. In this article, we will explain steps to:
 - Install R
 - Install Jupyter Notebook for R
 - Install Refinitiv's APIs for R, such as Eikon Data API, and Datastream Web Service
@@ -164,7 +164,7 @@ The R examples for Jupyter are available in [GitHub](https://github.com/Refiniti
 
 2. [DataStream R Example](https://github.com/Refinitiv-API-Samples/Example.RefinitivAPIs.R.Jupyter/tree/master/DataStreamR): This example demonstrates how to use DataStream Web Service with R on Jupyter Notebook. It uses the [DatastreamDSWS2R](https://github.com/CharlesCara/DatastreamDSWS2R/tree/master/R) package to retrieve data from DataStream Web Service and uses [Plotly](https://plot.ly/r/getting-started/) package to draw charts.
 
-3. [Elektron Data Platform R Example](https://github.com/Refinitiv-API-Samples/Example.RefinitivAPIs.R.Jupyter/tree/master/ElektronDataPlatformAPIR): This example demonstrates how to retrieve historical data from the Elektron Data Platform with R on Jupyter Notebook. It uses the [httr](https://cran.r-project.org/web/packages/httr/vignettes/quickstart.html) package to send HTTP request messages and uses [Plotly](https://plot.ly/r/getting-started/) package to draw charts.
+3. [Refinitiv Data Platform R Example](https://github.com/Refinitiv-API-Samples/Example.RefinitivAPIs.R.Jupyter/tree/master/RefinitivDataPlatformAPIR): This example demonstrates how to retrieve historical data from the Refinitiv Data Platform with R on Jupyter Notebook. It uses the [httr](https://cran.r-project.org/web/packages/httr/vignettes/quickstart.html) package to send HTTP request messages and uses [Plotly](https://plot.ly/r/getting-started/) package to draw charts.
 
 ## Troubleshoot
 
