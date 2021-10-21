@@ -6,7 +6,7 @@ R is an interpreted programming language for statistical computing and graphics 
 
 R is available as Free Software under the terms of the Free Software Foundation’s GNU General Public License in source code form. It compiles and runs on a wide variety of UNIX platforms and similar systems (including FreeBSD and Linux), Windows and macOS.
 
-Refinitiv's APIs, such as [Eikon Data API](https://developers.refinitiv.com/eikon-apis/eikon-data-api), [Datastream Web Service](https://developers.refinitiv.com/eikon-apis/datastream-web-service), [DataScope Select](https://developers.refinitiv.com/datascope-select-dss), [TRTH](https://developers.refinitiv.com/thomson-reuters-tick-history-trth), and [Refinitiv Data Platform](https://developers.refinitiv.com/refinitiv-data-platform/apis-in-this-family) also support R. In this article, we will explain steps to:
+Refinitiv's APIs, such as [Eikon Data API](https://developers.refinitiv.com/eikon-apis/eikon-data-api), [Datastream Web Service](https://developers.refinitiv.com/eikon-apis/datastream-web-service), [DataScope Select](https://developers.refinitiv.com/datascope-select-dss), [RTH](https://developers.refinitiv.com/thomson-reuters-tick-history-trth), and [Refinitiv Data Platform](https://developers.refinitiv.com/refinitiv-data-platform/apis-in-this-family) also support R. In this article, we will explain steps to:
 - Install R
 - Install Jupyter Notebook for R
 - Install Refinitiv's APIs for R, such as Eikon Data API, and Datastream Web Service
