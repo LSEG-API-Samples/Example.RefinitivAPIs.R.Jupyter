@@ -237,7 +237,7 @@ The data types used by the example are:
 
 |Data Type|Name|Description|
 |---------|----|-----------|
-|RIC|Reuters Instrument Code (RIC)|The Reuters Instrument Code|
+|RIC|Refinitiv Instrument Code (RIC)|The Refinitiv Instrument Code|
 |ISIN|Code - Isin|ISIN (International Security Identification Number) is a code that uniquely identifies a security|
 |SECD|Code - Sedol|This is an identification code based on the code issued by the London Stock Exchange|
 |LOC|Code - Local|This is an identification code based on the official local exchange code|
